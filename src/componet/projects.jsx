@@ -64,7 +64,7 @@ export default class Projects extends React.Component {
 													"gallery-card"
 												);
 												var boardgameModal = document.getElementById(
-													"Top Board Games"
+													"project2APP"
 												);
 												modalBG.style.display = "block";
 												boardgameModal.style.display =
@@ -135,7 +135,8 @@ export default class Projects extends React.Component {
 						<div className="modal-bottom">
 								<a
 									href="https://clf9008.github.io/Project1/index.html"
-									target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
 									<h3>View Application</h3>
 								</a>
 								<p
@@ -189,7 +190,8 @@ export default class Projects extends React.Component {
 							<div className="modal-bottom">
 								<a
 									href="https://peaceful-spire-39350.herokuapp.com/"
-									target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
 									<h3>View Application</h3>
 								</a>
 								<p
@@ -205,7 +207,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var topboardgamesModal = document.getElementById(
-											"Top Board Games"
+											"project2APP"
 										);
 										modalBG.style.display = "none";
 										topboardgamesModal.style.display = "none";
@@ -238,7 +240,9 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="https://clf9008fitness.herokuapp.com/?" target="_blank">
+                                <a href="https://clf9008fitness.herokuapp.com/?"
+                                    target="_blank"
+                                    rel="noreferrer">
 									<h3>View Application</h3>
 								</a>
 								<p
@@ -254,7 +258,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var fitnessModal = document.getElementById(
-											"todolist"
+											"workoutAPP"
 										);
 										modalBG.style.display = "none";
 										fitnessModal.style.display = "none";

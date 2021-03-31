@@ -1,5 +1,4 @@
 import React from "react";
-
 import instagram from "../img/instagram.png";
 import github from "../img/github.png";
 import linkedin from "../img/linkedin.png";
@@ -12,7 +11,7 @@ class Footer extends React.Component {
 					<div className="row">
 						<div className="col-12 col-sm-12 col-md-8 mx-auto">
 							<a
-								href="https://instagram.com/clf9008"
+								href="https://www.instagram.com/clf03/"
 								target="_blank"
 								rel="noopener noreferrer">
                                 <img className="img-fluid" src={instagram} alt=""/>

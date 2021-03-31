@@ -66,7 +66,7 @@ class Navbar extends React.Component {
 									behavior: "smooth"
 								});
 							}}>
-							Back to Space
+							Home
 						</a>
 						<button
 							className="navbar-toggler"
