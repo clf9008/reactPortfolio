@@ -1,7 +1,7 @@
 import React from "react";
-import dWeather from "../img/project1APP";
-import topboardgames from "../img/project2APP";
-import fitnessTracker from "../img/workoutAPP";
+import dWeather from "../img/project1APP.png";
+import topboardgames from "../img/project2APP.png";
+import fitnessTracker from "../img/workoutAPP.png";
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
@@ -35,7 +35,7 @@ export default class Projects extends React.Component {
 													"gallery-card"
 												);
 												var dweatherModal = document.getElementById(
-													"vmarine"
+													"dweather"
 												);
 												modalBG.style.display = "block";
 												dweatherModal.style.display =

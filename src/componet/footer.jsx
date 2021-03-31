@@ -1,6 +1,6 @@
 import React from "react";
 
-import instagram from "../img/instagram";
+import instagram from "../img/instagram.png";
 import github from "../img/github.png";
 import linkedin from "../img/linkedin.png";
 
@@ -32,7 +32,7 @@ class Footer extends React.Component {
 							</a>
 						</div>
 					</div>
-					<h5 className="pt-4">Frank Izquierdo &copy; 2018</h5>
+					<h5 className="pt-4">Chase Follett &copy; 2021</h5>
 				</div>
 			</div>
 		);
