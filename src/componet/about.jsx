@@ -61,7 +61,8 @@ export default class About extends React.Component {
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
                             I am a Full Stack Web Developer who is passionate about creating web
                             applications with JavaScript, React, and Node.js.
-
+                            <br>
+                            </br>
                             In my spare time, I love to hike, trail run, and see all the beautiful
                             sights Colorado has to offer with my main companion Winston!
 						</p>
@@ -148,7 +149,7 @@ export default class About extends React.Component {
 								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								Mongoose
+								ExpressJS
 							</div>
 						</div>
 						<div className="progress mb-3">

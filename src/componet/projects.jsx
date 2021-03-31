@@ -1,6 +1,6 @@
 import React from "react";
 import dWeather from "../img/project1APP.png";
-import topboardgames from "../img/project2APP.png";
+import topboardgames from "../img/project1APP.png";
 import fitnessTracker from "../img/workoutAPP.png";
 import PropTypes from "prop-types";
 
@@ -64,7 +64,7 @@ export default class Projects extends React.Component {
 													"gallery-card"
 												);
 												var boardgameModal = document.getElementById(
-													"project2APP"
+													"boardgame"
 												);
 												modalBG.style.display = "block";
 												boardgameModal.style.display =
@@ -85,7 +85,7 @@ export default class Projects extends React.Component {
 										<h2>Fitness Tracker</h2>
 									</div>
 									<div>
-										<button
+									<button
 											id="fitness-button"
 											className="project-button"
 											onClick={() => {
@@ -93,7 +93,7 @@ export default class Projects extends React.Component {
 													"gallery-card"
 												);
 												var fitnessModal = document.getElementById(
-													"fitnessTracker"
+													"fitness"
 												);
 												modalBG.style.display = "block";
 												fitnessModal.style.display =
@@ -110,7 +110,7 @@ export default class Projects extends React.Component {
 
 				{/*hidden modals*/}
 				<div id="gallery-card">
-					<div id="dWeather" className="modal-card">
+					<div id="dweather" className="modal-card">
 						<div className="visual">
 							<img src={dWeather} alt=""/>
 						</div>
@@ -152,7 +152,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var dWeatherModal = document.getElementById(
-											"Destination Weather"
+											"dweather"
 										);
 										modalBG.style.display = "none";
 										dWeatherModal.style.display = "none";
@@ -207,7 +207,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var topboardgamesModal = document.getElementById(
-											"project2APP"
+											"topboardgames"
 										);
 										modalBG.style.display = "none";
 										topboardgamesModal.style.display = "none";
@@ -218,7 +218,7 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="fitness-tracker" className="modal-card">
+					<div id="fitness" className="modal-card">
 						<div className="visual">
 							<img src={fitnessTracker} alt=""/>
 						</div>
@@ -258,7 +258,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var fitnessModal = document.getElementById(
-											"workoutAPP"
+											"fitness"
 										);
 										modalBG.style.display = "none";
 										fitnessModal.style.display = "none";
