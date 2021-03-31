@@ -59,9 +59,11 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I love to transform ideas into reality using code. I
-							am passionate about using Javascript and animations
-							to create awesome user experiences.
+                            I am a Full Stack Web Developer who is passionate about creating web
+                            applications with JavaScript, React, and Node.js.
+
+                            In my spare time, I love to hike, trail run, and see all the beautiful
+                            sights Colorado has to offer with my main companion Winston!
 						</p>
 					</div>
 					<div
