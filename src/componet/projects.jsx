@@ -1,6 +1,6 @@
 import React from "react";
 import dWeather from "../img/project1APP.png";
-import topboardgames from "../img/project1APP.png";
+import topboardgames from "../img/project2APP.png";
 import fitnessTracker from "../img/workoutAPP.png";
 import PropTypes from "prop-types";
 
@@ -31,14 +31,14 @@ export default class Projects extends React.Component {
 											id="dweather-button"
 											className="project-button"
 											onClick={() => {
-												var modalBG = document.getElementById(
+													var modalBG = document.getElementById(
 													"gallery-card"
 												);
-												var dweatherModal = document.getElementById(
-													"dweather"
+												var dWeatherModal = document.getElementById(
+													"dWeather"
 												);
 												modalBG.style.display = "block";
-												dweatherModal.style.display =
+												dWeatherModal.style.display =
 													"block";
 											}}>
 											Learn More
@@ -63,11 +63,11 @@ export default class Projects extends React.Component {
 												var modalBG = document.getElementById(
 													"gallery-card"
 												);
-												var boardgameModal = document.getElementById(
-													"boardgame"
+												var boardgamesModal = document.getElementById(
+													"boardgames"
 												);
 												modalBG.style.display = "block";
-												boardgameModal.style.display =
+												boardgamesModal.style.display =
 													"block";
 											}}>
 											Learn More
@@ -110,31 +110,24 @@ export default class Projects extends React.Component {
 
 				{/*hidden modals*/}
 				<div id="gallery-card">
-					<div id="dweather" className="modal-card">
+					<div id="dWeather" className="modal-card">
 						<div className="visual">
-							<img src={dWeather} alt=""/>
+							<img src={dWeather} alt="Destination Weather"/>
 						</div>
 						<div className="modal-info">
-							<h2>Destination Weather Application</h2>
+							<h2>Destination Weather</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-                                        An application that allows the users to
-                                        search any destianation and will pull up
-                                        that locations weather, forecast for the
-                                        next five days, and display a webcam of
-                                        the current weather conditions of said
-                                        location. 
+                                       An application that allows users to search for the 5-day forcast at any destination vacation location. In addition, a live image will display of the destination.
 									</li>
 									<li>
-										Designed with HTML5, CSS, Bootstrap,
-										JavaScript, Windy API, and JQuery.
+										HTML5, CSS, Bootstrap,JavaScript, Windy API, and OpenWeather API.
 									</li>
 								</ul>
 							</div>
-						<div className="modal-bottom">
-								<a
-									href="https://clf9008.github.io/Project1/index.html"
+							<div className="modal-bottom">
+                                <a href="https://clf9008.github.io/Project1/"
                                     target="_blank"
                                     rel="noreferrer">
 									<h3>View Application</h3>
@@ -152,7 +145,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var dWeatherModal = document.getElementById(
-											"dweather"
+											"dWeather"
 										);
 										modalBG.style.display = "none";
 										dWeatherModal.style.display = "none";
@@ -163,33 +156,24 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="topboardgames" className="modal-card">
+					<div id="boardgames" className="modal-card">
 						<div className="visual">
 							<img src={topboardgames} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Top Board Games</h2>
+							<h2>Top Boardgames</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-                                        An application that allows users to search
-                                        the BoardGameAtlas API to pull up any board
-                                        game, save thier favories, and even see the
-                                        top 100 board games right now! In addition,
-                                        users have a message board where they can
-                                        sign-up, post, and discuss thier favorite
-                                        board games!
+                                        An application that allows users to explore the Board Game Atlas API database to find new board games, see recommended board games, and view all the popular board games on the database.
 									</li>
 									<li>
-										Developed with HTML5, CSS, Bootstrap,
-										Express-Handlebars, MySQL, JavaScript,
-                                        and Cloudify.
+										JavaScript, CSS, Express-Handlebars, MySQL, Cloudify
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a
-									href="https://peaceful-spire-39350.herokuapp.com/"
+                                <a href="https://peaceful-spire-39350.herokuapp.com/"
                                     target="_blank"
                                     rel="noreferrer">
 									<h3>View Application</h3>
@@ -206,11 +190,11 @@ export default class Projects extends React.Component {
 										var modalBG = document.getElementById(
 											"gallery-card"
 										);
-										var topboardgamesModal = document.getElementById(
-											"topboardgames"
+										var boardgamesModal = document.getElementById(
+											"boardgames"
 										);
 										modalBG.style.display = "none";
-										topboardgamesModal.style.display = "none";
+										boardgamesModal.style.display = "none";
 									}}>
 									&#10005;
 								</p>
