@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
 				</h1>
 				<form
 					className={this.props.shake}
-					action="https://formspree.io/example@email.com"
+					action="https://formspree.io/f/xpzkzkwz"
 					method="POST">
 					<div className="form-group">
 						<div className="row">
